@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.topnav{
+    background-color: rgb(145, 241, 145);
+    height: 50px;
+    width: 100%;
+}
+.ram{
+    padding: 20px ;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-top: 10px;
+    opacity: 50;
+    
+    text-decoration: none; /*to reove line below home about contact carreer auditor*/
+}
+.topnav a:hover{
+    background-color: #ddd;
+    cursor: pointer; /*hover hone pe cursor badal jayega*/
+    
+}
+.topnav a.active{
+  background-color: #fff;
+    color: red;
+}
+.ram1{
+    background-color: aqua;
+    height: 150px;
+}
+#logo{
+    height: 150px;
+    
+}
+#para{
+  color: whitesmoke;
+  display: inline-flex;
+  border-radius: 50px;
+  
+   
+}
+#para2{
+    color: red;
+    
+}
+#er{
+    text-align: center;
+    color: blue;
+}
+#nic{
+    text-align: center;
+}
+#xii{
+    padding-top: 80px;
+    text-align: center;
+    color: blue;
+}
+.stdetails{
+    padding: 10px;
+}
+.apple{
+    padding: 4px;
+    text-align: center;
+}
+.submit-button{
+    display: flex; /*move button to right or else other place but it is neccesary to use justify content*/
+    justify-content: center;
+    padding: 10px;
+   
+}
+#parao{
+    color: red;
+}
+#bone{
+  margin-right: 13px;
+  cursor: pointer;
+}
+#btwo :hover{
+   cursor: crosshair;
+}
+.foot{
+    position: fixed;
+   width: 100%;
+   height: 80px;
+   bottom: 0;
+   background-color: aqua;
+   color: blueviolet;
+   text-align: center;
+}
+
+@media(max-width:998px){
+    html{
+        font-size:55%
+    }
+}
+@media(max-width:768px){
+    html{
+        font-size:45%;
+    }
+}
